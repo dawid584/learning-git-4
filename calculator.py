@@ -21,6 +21,34 @@ if checking() == True:
 else:
     exit()
 
+def plus_function(action):    
+    if action == 1:
+         sum = first_number + second_number
+         logging.debug(f"Mnoże {float(first_number)} i {float(second_number)}")
+         logging.info(f"Wynik to {round(sum , 2)}")
+plus_function(action)         
+
+def minus_function(action):    
+    if action == 2:
+       sum = first_number - second_number
+       logging.debug(f"Mnoże {float(first_number)} i {float(second_number)}")
+       logging.info(f"Wynik to {round(sum, 2)}")
+minus_function(action)
+
+def times_function(action):
+    if action == 3:
+       sum = first_number * second_number
+       logging.debug(f"Mnoże {float(first_number)} i {float(second_number)}")
+       logging.info(f"Wynik to {round(sum , 2)}")
+times_function(action)
+
+def divide_function(action):
+    if action == 4:
+        sum = first_number / second_number
+        logging.debug(f"Dziele {float(first_number)} i {float(second_number)}")
+        logging.info(f"Wynik to {round(sum , 2)}")    
+divide_function(action)   
+
 
 
 
